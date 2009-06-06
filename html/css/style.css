@@ -104,7 +104,11 @@ div.menu form.search input {
     vertical-align: middle;
 }
 div.menu form.search input#input1 {
-    width: 125px;
+    width: 120px;
+}
+div.menu form.search input#input2 {
+    padding-left: 0;
+    padding-right: 0;
 }
 /* list */
 div.menu ul {
@@ -113,17 +117,21 @@ div.menu ul {
     list-style: none;
 }
 div.menu ul li {
-    padding: 4px 0 4px 5px;
+    padding: 4px 0 3px 5px;
     line-height: 1.1em;
 }
 div.menu ul ul li {
-    padding: 3px 0 3px 15px;
+    padding: 4px 0 3px 15px;
 }
 div.menu ul a {
     color: #9c261d;
     font-weight: bold;
     letter-spacing: -0.02em;
     text-decoration: none;
+}
+div.menu ul a:hover,
+div.menu ul a.active {
+    color: #c97653;
 }
 
 /***** content *****/
@@ -136,7 +144,8 @@ div.wrapper {
 
 div.content
 {
-    margin-left: 210px;
+    margin: 0 0 0 210px;
+    min-height: 300px;
 }
 
 div.section {
