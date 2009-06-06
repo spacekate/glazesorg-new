@@ -94,7 +94,7 @@ div.menu {
 }
 /* search */
 div.menu form.search {
-    margin: 1em 0 5px 0;
+    margin: 1em 0;
 }
 div.menu form.search fieldset {
     padding: 0;
